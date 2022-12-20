@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body onclick="myfunction(event)">
+<div class="mydate">
+    <p  class='all'id="date"></p>
+</div>
+<h1 class="all"> the First Heading</h1>
+<h2 class="all" >the Second Heading</h2>
+<span class="all">This is span</span>
+<button class="all"> this is button</button>
+<div class="parent">
+    <span>you are click on </span>
+    <p id="demo"></p>
+</div>
+<script>
+    function myfunction(event){
+        document.getElementById("demo").innerHTML = event.target.tagName;//display the tagname of the elment thatyou press on
+    }
+    setTimeout("document.bgColor='#ede0d4'",500)//change the color of the document each 1s
+    setTimeout("document.bgColor='#e6ccb2'",1000)
+    setTimeout("document.bgColor='#ddb892'",2000)
+    setTimeout("document.bgColor='#b08968'",3000)
+    setTimeout("document.bgColor='#edc4b3'",4000)
+    setTimeout("document.bgColor='#edc4b3'",5000)
+    let date=new Date();
+    document.getElementById('date').innerHTML=date;
+</script>
+
+</body>
+</html>

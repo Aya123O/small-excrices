@@ -1,0 +1,39 @@
+.all{
+    display: block;
+    border:3px solid #bc6c25;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: #fefae0;
+    width: fit-content;
+    color: #bc6c25;
+    border-radius: 4px;
+}
+.parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.parent span{
+    display: inline-block;
+    color: #7f5539;
+    font-size: 20px;
+    margin-right: 10px;
+    text-transform: capitalize;
+
+}
+#demo{
+
+    background-color: #9c6644;
+    color: white;
+    width: fit-content;
+    padding: 8px;
+    border: #bc6c25;
+    border-radius: 5px;
+}
+.mydate{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+}
